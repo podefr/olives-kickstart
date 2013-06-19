@@ -11,9 +11,7 @@ define(function (require) {
 
 		dashboard.plugins.add("config", bindConfig);
 
-		dashboard.template = '<h1>Hello <span data-config="bind: innerHTML, name"></span></h1>';
-
-		dashboard.place(dom);
+		dashboard.alive(dom);
 
 		return dashboard;
 
