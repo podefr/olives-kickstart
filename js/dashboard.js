@@ -1,8 +1,8 @@
 define(function (require) {
 
-	var OObject = require("OObject"),
-		Bind = require("Bind.plugin"),
-		Store = require("Store");
+	var OObject = olives.OObject,
+		Bind = olives["Bind.plugin"],
+		Store = olives.Store;
 
 	return function DashboardConstructor(dom, config) {
 

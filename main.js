@@ -1,8 +1,7 @@
 define(function (require) {
 
-	var Dashboard = require("js/Dashboard"),
-		Store = require("Store"),
-		Config = new Store({
+	var Dashboard = require("js/dashboard"),
+		Config = new olives.Store({
 			name: "Olives"
 		});
 
